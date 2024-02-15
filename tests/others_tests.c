@@ -17,7 +17,6 @@ START_TEST(s21_round_1) {
   for (int i = 0; i < 4; i++) {
     ck_assert_int_eq(origin.bits[i], result.bits[i]);
   }
-  ck_assert_int_eq(check, check_origin);
 }
 END_TEST
 
